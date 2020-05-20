@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+  
+<suite name="Project FlipLearn" verbose="2" >
+<parameter name="browser" value="chrome"></parameter>  
+
+  <test name="Login Test" >
+    <classes>
+       <class name="org.flipLearn.com.FlipLearnTest" />
+    </classes>
+  </test>
+  
+</suite>

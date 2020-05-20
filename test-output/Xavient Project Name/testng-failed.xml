@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Xavient Project Name]">
+  <parameter name="browser" value="firefo"/>
+  <test thread-count="5" name="CheapOair Test(failed)">
+    <classes>
+      <class name="org.testNG.tests.CheapoAir">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="cheapoairTest"/>
+        </methods>
+      </class> <!-- org.testNG.tests.CheapoAir -->
+    </classes>
+  </test> <!-- CheapOair Test(failed) -->
+  <test thread-count="5" name="Google Test(failed)">
+    <classes>
+      <class name="org.testNG.tests.GoogleTest">
+        <methods>
+          <include name="googleTest"/>
+          <include name="openBrowser"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- org.testNG.tests.GoogleTest -->
+    </classes>
+  </test> <!-- Google Test(failed) -->
+  <test thread-count="5" name="Naukri Test(failed)">
+    <classes>
+      <class name="org.testNG.tests.NaukriTest">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="naukriTest"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- org.testNG.tests.NaukriTest -->
+    </classes>
+  </test> <!-- Naukri Test(failed) -->
+</suite> <!-- Failed suite [Xavient Project Name] -->

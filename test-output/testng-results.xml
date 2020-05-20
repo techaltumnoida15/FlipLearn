@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Project FlipLearn" duration-ms="57921" started-at="2020-05-20T10:54:41 IST" finished-at="2020-05-20T10:55:39 IST">
+    <groups>
+    </groups>
+    <test name="Login Test" duration-ms="57921" started-at="2020-05-20T10:54:41 IST" finished-at="2020-05-20T10:55:39 IST">
+      <class name="org.flipLearn.com.FlipLearnTest">
+        <test-method status="PASS" signature="openBrowser(java.lang.String)[pri:0, instance:org.flipLearn.com.FlipLearnTest@87a85e1]" name="openBrowser" is-config="true" duration-ms="11575" started-at="2020-05-20T10:54:41 IST" finished-at="2020-05-20T10:54:53 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:org.flipLearn.com.FlipLearnTest@87a85e1]" name="loginTest" duration-ms="45538" started-at="2020-05-20T10:54:53 IST" finished-at="2020-05-20T10:55:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:org.flipLearn.com.FlipLearnTest@87a85e1]" name="quitBrowser" is-config="true" duration-ms="767" started-at="2020-05-20T10:55:38 IST" finished-at="2020-05-20T10:55:39 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- org.flipLearn.com.FlipLearnTest -->
+    </test> <!-- Login Test -->
+  </suite> <!-- Project FlipLearn -->
+</testng-results>
